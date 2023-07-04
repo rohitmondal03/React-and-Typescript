@@ -5,12 +5,12 @@
 
 ## Topics ##
 __1. JSX.Element for functional component__ <br />
-__2. "**CSSProperties**" defining styling objects for any element__
-__3. Data types for "**useRef**" hook and "**useState**" hooks__
+__2. "**CSSProperties**" defining styling objects for any element__ <br />
+__3. Data types for "**useRef**" hook and "**useState**" hooks__ <br />
 __4. "***null!***" value__
-__4. HTMLTextareatElement, HTMLDivElement, HTMLInputElement, HTMLButtonElement, HTMLFormElement, etc__
-__5. ChangeEvent , FormEvent__
-__6. **Props** and defining its types__
+__4. HTMLTextareatElement, HTMLDivElement, HTMLInputElement, HTMLButtonElement, HTMLFormElement, etc__ <br />
+__5. ChangeEvent , FormEvent__ <br />
+__6. **Props** and defining its types__ <br />
 
 
 
