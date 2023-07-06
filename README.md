@@ -100,3 +100,30 @@
 
 ### 7. *Props* and defining its types ###
 > When passing props to child component, it's recommended to specify those props in **type** or **interface**.  This helps to pass down only required type of data to pass down, so that it does not cause any error.
+
+```JSX
+    type Sub= {
+        msg: string;
+        age: number;
+    }
+
+    type Props= {
+        name: string
+        others: Sub
+    }
+
+    const MyChild= (props: Props): JSX.Element => {
+        const {name, others}= props;
+        const {msg, age}= others;
+
+        return (
+            <>
+                <h1>{name}</h1>
+                <p>{age}</p>
+                <h2>{msg}</h2>
+            </h1>
+        )
+    }
+```
+
+> **Please note that in place of *type*, we could have used *interface* also.**
